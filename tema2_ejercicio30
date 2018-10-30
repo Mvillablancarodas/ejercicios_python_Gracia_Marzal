@@ -1,0 +1,13 @@
+EJERCICIO 30 (pág 50)
+
+a) int(exp(2 * log(3)))
+  e^(2*ln(3)) = e^ ln(3²) = 9
+
+b) round (4*sin(3 * pi / 2))
+  4 * 1.0 = 4.0
+
+c) abs(log10(.01) * sqrt(25))
+  | (log10 (10⁻2) * sqrt(5²) | = | (-2)*(5.0) | = 10.0
+  
+d) round (3.21123 * log10(1000), 3)
+  round (3.21123 * log10 (10³), 3) dará el redondeo con tres decimales de (3.21123 * 3) = 9.634
