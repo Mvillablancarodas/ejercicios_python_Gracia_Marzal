@@ -1,4 +1,6 @@
-EJERCICIO 30 (pág 50)
+30) ¿Qué resultados se obtendrán al evaluar las siguientes expresiones Python? Calcula
+primero a mano el valor resultante de cada expresión y comprueba, con la ayuda del ordenador,
+si tu resultado es correcto.
 
 a) int(exp(2 * log(3)))
   e^(2*ln(3)) = e^ ln(3²) = 9
