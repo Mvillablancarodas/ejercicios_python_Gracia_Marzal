@@ -1,0 +1,12 @@
+33) Diseña un programa que, a partir del valor de los dos lados de un rectángulo (4 y 6 metros, respectivamente), muestre el valor de su perı́metro (en metros) y el de su área (en metros cuadrados).
+(El perı́metro debe darte 20 metros y el área 24 metros cuadrados.)
+
+import math
+
+lado1=4
+lado2=6
+perimetro=2*lado1+2*lado2
+area=lado1*lado2
+
+print perimetro
+print area
