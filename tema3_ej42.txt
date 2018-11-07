@@ -1,0 +1,12 @@
+42) Un alumno inquieto ha experimentado con las marcas de formato y el método upper y ha obtenido un resultado sorprendente:
+
+>>> print (’número %d y número %d’ % (1, 2)).upper ()
+NÚMERO 1 Y NÚMERO 2
+>>> print ’número %d y número %d’.upper () % (1, 2)
+Traceback (most recent call last):
+File "<stdin>", line 1, in ?
+ValueError: unsupported format character ’D’ (0x44) at index 8
+
+¿Qué crees que ha pasado?
+
+RESPUESTA - Estamos pidiendo que capitalice las letras de una frase que llama a unos valores almacenados en variables. Upper solo puede cambiar letras de una cadena, no una función. Por eso ha fallado. 

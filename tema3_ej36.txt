@@ -1,0 +1,8 @@
+36) Diseña un programa que pida el valor de la base y la altura de un triángulo y muestre el valor de su área.
+(Prueba que tu programa funciona correctamente con este ejemplo: si la base es 10 y la altura 100, el área será 500.0.)
+
+altura=float(raw_input('Dame la altura: '))
+base=float(raw_input('Dame la base: '))
+area=base*altura
+
+print 'El area es: ', area

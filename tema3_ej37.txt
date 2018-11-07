@@ -1,0 +1,18 @@
+37) Diseña un programa que pida el valor de los tres lados de un triángulo y calcule el valor de su área y perı́metro.
+Recuerda que el área A de un triángulo puede calcularse a partir de sus tres lados, a, b y c, ası́: A = sqrt(s(s − a)(s − b)(s − c)), donde s = (a + b + c)/2.
+(Prueba que tu programa funciona correctamente con este ejemplo: si los lados miden 3, 5 y 7, el perı́metro será 15.0 y el área 6.49519052838.)
+
+from math import sqrt
+
+lado1=float(raw_input('Dame un lado: '))
+lado2=float(raw_input('Dame otro: '))
+lado3=float(raw_input('Dame otro: '))
+
+s=(lado1+lado2+lado3)/2
+
+area=sqrt(s*(s-lado1)*(s-lado2)*(s-lado3))
+
+print 'El area es: ', area
+
+
+

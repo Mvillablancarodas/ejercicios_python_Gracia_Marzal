@@ -1,0 +1,10 @@
+35) Diseña un programa que pida el valor de los dos lados de un rectángulo y muestre el valor de su perı́metro y el de su área.
+(Prueba que tu programa funciona correctamente con este ejemplo: si un lado mide 1 y el otro 5, el perı́metro será 12.0, y el área 5.0.)
+
+altura=float(raw_input('Dame la altura: '))
+base=float(raw_input('Dame la base: '))
+perimetro=2*base+2*altura
+area=base*altura
+
+print 'El perimetro es: ', perimetro
+print 'El area es: ', area

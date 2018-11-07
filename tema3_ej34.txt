@@ -1,0 +1,11 @@
+34) Diseña un programa que pida el valor del lado de un cuadrado y muestre el valor de su perı́metro y el de su área.
+(Prueba que tu programa funciona correctamente con este ejemplo: si el lado vale 1.1, el perı́metro será 4.4, y el área 1.21.)
+
+import math
+
+lado=float(raw_input('Dame el lado: '))
+perimetro=lado*4
+area=lado*lado
+
+print 'El perimetro es: ', perimetro
+print 'El area es: ', area
