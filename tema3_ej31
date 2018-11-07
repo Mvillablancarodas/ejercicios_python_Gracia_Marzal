@@ -1,0 +1,12 @@
+31) Diseña un programa que, a partir del valor del lado de un cuadrado (3 metros), muestre
+el valor de su perı́metro (en metros) y el de su área (en metros cuadrados).
+(El perı́metro debe darte 12 metros y el área 9 metros cuadrados.)
+
+import math
+
+lado=3
+perimetro=4*lado
+area=lado*lado
+
+print perimetro
+print area
