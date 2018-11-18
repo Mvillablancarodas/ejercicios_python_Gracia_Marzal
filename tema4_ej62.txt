@@ -1,0 +1,9 @@
+63) ¿Qué mostrará por pantalla el siguiente programa?
+###################
+comparaciones.py
+if 14 < 120:
+	print ’Primer saludo’
+if ’14’ < ’120’:
+	print ’Segundo saludo’
+##################
+Primer saludo. El segundo lugar de la cadena '14', '4', es mayor que el segundo lugar de la cadena '120', es decir, '2'. El segundo if no se cumple. 

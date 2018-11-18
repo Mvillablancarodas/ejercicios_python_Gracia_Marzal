@@ -1,0 +1,47 @@
+62) Indica en cada uno de los siguientes programas qué valores en las respectivas entradas provocan la aparición de los distintos mensajes. Piensa primero la solución y comprueba luego que es correcta ayudándote con el ordenador.
+############################################
+a) misterio 3.py
+letra = raw_input(’Dame una letra minúscula: ’)
+
+if letra <= ’k’:
+	print ’Es de las primeras del alfabeto’
+if letra >= ’l’:
+	print ’Es de las últimas del alfabeto’
+###########################################
+
+#Si escribo m:
+	Es de las primeras del alfabeto
+#Si escribo a:
+	Es de las últimas del alfabeto
+#PERO si escribo Z:
+	Es de las primeras del alfabeto
+#SOLUCIÓN: en la línea 1, escribir en el programa:
+
+letra = raw_input('Dame una letra: ').lowercase()
+########################################
+########################################
+b) misterio 4.py
+from math import ceil # ceil redondea al alza.
+grados = float(raw_input(’Dame un ángulo (en grados): ’))
+
+cuadrante = int(ceil (grados) % 360) / 90
+if cuadrante == 0:
+	print ’primer cuadrante’
+if cuadrante == 1:
+	print ’segundo cuadrante’
+if cuadrante == 2:
+	print ’tercer cuadrante’
+if cuadrante == 3:
+	print ’cuarto cuadrante’
+##########################################
+
+#Si el numero introducido está entre cero (incluido) y 90 (no incluido):
+	#primer cuadrante
+#Si el numero introducido está en [90, 180) (incluyendo 90 y no 180):
+	#segundo cuadrante
+#Si el numero introducido está en [180, 270)
+	#tercer cuadrante
+#Si el numero introducido está en [270, 360)
+	#cuarto cuadrante
+#No habrá respuesta si el número es mayor de 360. 
+

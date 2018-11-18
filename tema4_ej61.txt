@@ -1,0 +1,8 @@
+61) Diseña un programa que lea un carácter de teclado y muestre por pantalla el mensaje ((Es paréntesis)) sólo si el carácter leı́do es un paréntesis abierto o cerrado.
+########################################
+
+caracter = raw_input('Introduce un caracter: ')
+
+if caracter == '(' or caracter == ')':
+	print 'Es un parentesis'
+

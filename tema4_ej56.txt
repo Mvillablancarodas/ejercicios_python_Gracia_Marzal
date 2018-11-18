@@ -1,0 +1,19 @@
+56) Un programador primerizo cree que la lı́nea 7 de la última versión de primer grado.py
+es innecesaria, ası́ que propone esta otra versión como solución válida:
+##############################
+primer grado 12.py
+
+E primer grado.py E
+a = float(raw_input(’Valor de a: ’))
+b = float(raw_input(’Valor de b: ’))
+
+if a != 0:
+	x = -b/a
+	print ’Solución: ’, x
+
+print ’La ecuación no tiene solución.’
+#########################################
+Haz una traza del programa para a = 2 y b = 2. ¿Son correctos todos los mensajes que muestra por pantalla el programa?
+#########################################
+
+Falta la condición de que a==0. Si introducimos un valor de a que sea 0, el programa fallará.

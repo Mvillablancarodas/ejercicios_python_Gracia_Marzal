@@ -1,0 +1,21 @@
+53) Un programador propone el siguiente programa para resolver la ecuación de primer
+grado:
+
+a = float(raw_input(’Valor de a: ’))
+b = float(raw_input(’Valor de b: ’))
+
+a * x + b = 0
+
+print ’Solución: ’, x
+¿Es correcto este programa? Si no, explica qué está mal.
+################################################
+x es una variable que no hemos introducido. Si ax+b = 0, x = -b/a.
+
+Solución: 
+
+a = float(raw_input(’Valor de a: ’))
+b = float(raw_input(’Valor de b: ’))
+
+x = -b/a
+
+print ’Solución: ’, x

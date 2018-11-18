@@ -1,0 +1,28 @@
+55) Un estudiante ha tecleado el último programa y, al ejecutarlo, obtiene este mensaje de
+error.
+File "primer_grado4.py", line 7
+if a = 0:
+^
+SyntaxError: invalid syntax
+Aquı́ tienes el contenido del fichero que él ha escrito:
+####################
+primer grado 11.py
+
+E primer grado.py E
+a = float(raw_input(’Valor de a: ’))
+b = float(raw_input(’Valor de b: ’))
+
+if a != 0:
+	x = -b/a
+	print ’Solución: ’, x
+if a = 0:
+	print ’La ecuación no tiene solución.’
+
+Por más que el estudiante lee el programa, no encuentra fallo alguno. Él dice que la lı́nea 7, que es la marcada como errónea, se lee ası́: ((si a es igual a cero. . . )) ¿Está en lo cierto? ¿Por qué se
+detecta un error?
+###################################
+El fallo está en la 7a línea:
+
+if a = 0:
+
+Lo ha asignado como =, no lo ha igualado ==.

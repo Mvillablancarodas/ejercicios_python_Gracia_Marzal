@@ -1,0 +1,8 @@
+59 Diseña un programa que lea un número flotante por teclado y muestre por pantalla el mensaje ((El número es positivo.)) sólo si el número es mayor o igual que cero.
+#############################################
+
+a = float(raw_input(’Introduce un numero: ’))
+
+if a>=0:
+	print 'El numero es negativo'
+

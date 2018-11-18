@@ -1,0 +1,11 @@
+54) Otro programador propone este programa:
+x = -b / a
+
+a = float(raw_input(’Valor de a: ’))
+b = float(raw_input(’Valor de b: ’))
+
+print ’Solución: ’, x
+¿Es correcto? Si no lo es, explica qué está mal.
+####################################
+Tiene el mismo problema que 53), pero no ha definido a y b desde el princpio. 
+
