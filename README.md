@@ -1,8 +1,8 @@
 VERSIÓN EN ESPAÑOL: Repositorio de ejercicios resueltos del libro Introducción a la Programación en Python de Isabel Gracia y Andrés Marzal (2003, Universitat Jaume I).
 
-ENGLISH VERSION: Here I am presenting a repository of the book Introducción a la Programación en Python, by Isabel Gracia and Andrés Marzal (2003, Universitat Jaume I).
+ENGLISH VERSION: Here I am presenting a repository of solved exercises of the book Introducción a la Programación en Python, by Isabel Gracia and Andrés Marzal (2003, Universitat Jaume I).
 
-IMPORTANT NOTE! Since the book presents exercises in Spanish, the answer of these exercises will be in Spanish. Upon request, I can upload versions of exercises in English. 
+IMPORTANT NOTE! Since the book presents exercises in Spanish, the answer of these exercises will be in Spanish. Upon request, I can upload versions of exercises in English. Although basic, this book can provide a good start for beginners in Python as I was not so long ago. Please let me know if you like it!
 
 
 1. EL LENGUAJE PYTHON Y DÓNDE ENCONTRARLO
@@ -20,7 +20,7 @@ Las últimas versiones estables de python son Python2.7.5 y 3.7.0, aparecidas en
 Podéis encontrar enlaces de descarga para python en: https://www.python.org/downloads/. Elegid vuestra versión y vuestro sistema operativo. 
 
 
-2. EL LIBRO ‘INTRODUCCIÓN A LA PROGRAMACIÓN EN PYTHON’ DE ISABEL GRACIA Y ANDRÉS MARZAL, 2003
+2. EL LIBRO "INTRODUCCIÓN A LA PROGRAMACIÓN EN PYTHON" DE ISABEL GRACIA Y ANDRÉS MARZAL, 2003
 
 Es uno de los libros más usados en internet para personas que quieren aprender Python desde cero, como yo hice. Sirve para aquellos que nunca hayan tenido contacto con ningún lenguaje de programación previamente y cubre algunos de los aspectos básicos más importantes, como estructuras de control (IF-ELSE, bucles FOR, WHILE, estructuras de detección de excepciones TRY-EXCEPT, etc), secuencias, funciones, registros y ficheros. 
 
@@ -54,6 +54,7 @@ De la misma manera, no he resuelto todos los ejercicios que requieren que el alu
 Algunos de los ejercicios, como los de los números perfectos o las hipotecas de los temas 5 y 6, me parecieron bastante recurrentes y yo no tenía un interés específico en ellos para mi trabajo futuro, así que los he dejado atrás. El desarrollo es bastante sencillo y son muy similares a los que resuelvo aquí. 
 
 Si hay algún ejercicio que consideréis importante o interesante, por favor no dudéis en escribirme en GitHub. 
+
 
 5. FINAL
 
