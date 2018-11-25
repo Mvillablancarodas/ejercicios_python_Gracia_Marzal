@@ -1,0 +1,10 @@
+#65) Diseña un programa que, dado un número entero, determine si éste es el doble de un número impar. (Ejemplo: 14 es el doble de 7, que es impar.)
+
+n = int(raw_input('Dame un numero: '))
+
+if n<= 0:
+    n = int (raw_input('Este numero no es entero. Por favor, introduce otro: '))
+elif (n/2)%2 == 0:
+    print 'El numero %d es doble de un numero par' % (n)
+else:
+    print 'El numero %d es doble de un numero impar' % (n)

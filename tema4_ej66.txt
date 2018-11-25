@@ -1,0 +1,16 @@
+#66) Diseña un programa que, dados dos números enteros, muestre por pantalla uno de estos mensajes: ((El segundo es el cuadrado exacto del primero.)), ((El segundo es menor que el cuadrado del primero.)) o ((El segundo es mayor que el cuadrado del primero.)), dependiendo de la verificación de la condición correspondiente al significado de cada mensaje.
+
+n = int(raw_input('Dame el primer numero: '))
+m = int(raw_input('Dame el segundo numero: '))
+
+if n==0 or m==0:
+    n = int(raw_input('Dame el primer numero: '))
+    m = int(raw_input('Dame el segundo numero: '))
+else:
+    if m==(n**2):
+        print 'El segundo es el cuadrado exacto del primero'
+    elif m>(n**2):
+        print 'El segundo es mayor que el cuadrado del primero'
+    else:
+        print 'El segundo es menor que el cuadrado del primero'
+

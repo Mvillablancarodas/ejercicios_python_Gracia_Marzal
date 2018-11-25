@@ -1,0 +1,10 @@
+#64. Diseña un programa que, dado un número entero, muestre por pantalla el mensaje ((El número es par.)) cuando el número sea par y el mensaje ((El número es impar.)) cuando seaimpar.
+
+n = int(raw_input('Dame un numero: '))
+
+if n<= 0:
+    n = int (raw_input('Este numero no es entero. Por favor, introduce otro: '))
+elif n%2 == 0:
+    print 'El numero %d es par' % (n)
+else:
+    print 'El numero %d no es par' % (n)

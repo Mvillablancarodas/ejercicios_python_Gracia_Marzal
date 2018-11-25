@@ -1,0 +1,9 @@
+# 67 Un capital de C euros a un interés del x por cien anual durante n años se convierte en C · (1 + x/100) n euros. Diseña un programa Python que solicite la cantidad C y el interés x ycalcule el capital final sólo si x es una cantidad positiva.
+
+C = int(raw_input('Capital inicial: '))
+x = int(raw_input('Interes: '))
+n = int (raw_input('Anyos: '))
+
+if x>0:
+    capfin = C*(((1+x)/100)**n)
+    print 'El capital final es %d', capfin
