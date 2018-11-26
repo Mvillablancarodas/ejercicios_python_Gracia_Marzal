@@ -1,0 +1,50 @@
+# 68) Realiza un programa que calcule el desglose en billetes y monedas de una cantidad exacta de euros. Hay billetes de 500, 200, 100, 50, 20, 10 y 5 ¤ y monedas de 2 y 1 ¤ . Por ejemplo, si deseamos conocer el desglose de 434 ¤ , el programa mostrará por pantalla el siguiente resultado:
+
+din = int(raw_input('Introduce cantidad en euros: '))
+
+#este programa seria mucho mas rapido con un bucle o con una lista, que aun no hemos visto. Lo haremos con estructuras if y else
+
+quin = din/500
+dinaux = din - 500*quin
+if quin>0:
+    print '%d billetes de 500 euros' % quin
+
+dosc = dinaux/200
+dinaux = dinaux - 200*dosc
+if dosc>0:
+    print '%d billetes de 200 euros' % dosc
+
+cien = dinaux/100
+dinaux = dinaux - 100*cien
+if cien>0:
+    print '%d billetes de 100 euros' % cien
+
+cincu = dinaux/50
+dinaux = dinaux - 50*cincu
+if cincu>0:
+    print '%d billetes de 50 euros' % cincu
+
+vein = dinaux/20
+dinaux = dinaux - 20*vein
+if vein>0:
+    print '%d billetes de 20 euros' % vein
+
+diez = dinaux/10
+dinaux = dinaux - 10*diez
+if diez>0:
+    print '%d billetes de 10 euros' % diez
+
+cinco = dinaux/5
+dinaux = dinaux - 5*cinco
+if cinco>0:
+    print '%d billetes de 5 euros' % cinco
+
+dos = dinaux/2
+dinaux = dinaux - 2*dos
+if dos>0:
+    print '%d monedas de 2 euros' % dos
+
+uno = dinaux/1
+dinaux = dinaux - 1*uno
+if uno>1:
+    print '%d monedas de 1 euro' % uno

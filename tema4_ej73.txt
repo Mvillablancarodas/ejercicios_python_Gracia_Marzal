@@ -1,0 +1,13 @@
+# 73 Amplı́a la solución al ejercicio anterior para que cuando el carácter introducido no sea una letra muestre el mensaje ((No es una letra)). (Nota: no te preocupes por las letras eñe, ce cedilla, vocales acentuadas, etc.)
+
+letra = raw_input('Introduzca una letra: ')
+
+if len(letra) != 1:
+    letra = raw_input('Eso era una cadena. Por favor, introduzca una letra: ')
+
+if letra >= 'A' and <= 'Z':
+    print 'Es una MAYÚSCULA'
+elif letra >= 'a' and <= 'z':
+    print 'Es una minúscula'
+else:
+    print 'No es una letra.'

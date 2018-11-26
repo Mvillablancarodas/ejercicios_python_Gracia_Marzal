@@ -1,0 +1,12 @@
+#  72 Diseña un programa Python que lea un carácter cualquiera desde el teclado, y muestre el mensaje ((Es una MAYÚSCULA)) cuando el carácter sea una letra mayúscula y el mensaje ((Es una MINÚSCULA)) cuando sea una minúscula. En cualquier otro caso, no mostrará mensaje alguno. (Considera únicamente letras del alfabeto inglés.) Pista: aunque parezca una obviedad, recuerda que una letra es minúscula si está entre la ’a’ y la ’z’, y mayúscula si está entre la ’A’ y la ’Z’
+# una muy buena solucion para introducir un solo caracter la teneis aqui:  https://stackoverflow.com/questions/12955495/raw-input-should-accept-only-single-character
+
+letra = raw_input('Introduzca una letra: ')
+
+if len(letra) != 1:
+    letra = raw_input('Eso era una cadena. Por favor, introduzca una letra: ')
+
+if letra <= 'Z':
+    print 'Es una MAYÚSCULA'
+else: 
+    print 'Es una minúscula'

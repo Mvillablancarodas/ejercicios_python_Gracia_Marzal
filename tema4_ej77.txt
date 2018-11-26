@@ -1,0 +1,14 @@
+77) ¿Qué lı́neas del último programa se ejecutan y qué resultado aparece por pantalla en cada uno de estos casos?
+
+a) a = 2 y b = 3.
+	Respuesta: 3
+
+b) a = 3 y b = 2.
+	Respuesta: 3
+
+c) a = −2 y b = 0.
+	Respuesta: 0
+	
+d) a = 1 y b = 1.
+	Respuesta: 1
+
